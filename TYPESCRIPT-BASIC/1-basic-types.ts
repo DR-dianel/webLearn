@@ -1,6 +1,6 @@
 let isDone:boolean = false
 
-let age:nnumber = 10
+let age:number = 10
 
 let firstName:string  = 'Raymond'
 
