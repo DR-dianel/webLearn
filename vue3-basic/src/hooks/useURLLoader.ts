@@ -1,7 +1,7 @@
 import { ref } from 'vue'
 import axios from 'axios'
 
-function useURLLoader<T>(url: string) {
+function useURLLoader<T>(url: string) { // 泛型改造 可以使用的时候传类型
   const result = ref<T | null>(null)
   const loading = ref(true)
   const loaded = ref(false)
